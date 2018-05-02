@@ -1,0 +1,46 @@
+{
+    
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {   
+            "@app/*": ["app/*"],
+            "@app": ["app"],
+            "@assets/*": ["assets/*"],
+            "@assets": ["assets"],
+            "@pages/*": ["pages/*"],
+            "@pages": ["pages"],
+            "@pipes/*": ["pipes/*"],
+            "@pipes": ["pipes"],
+            "@providers/*": ["providers/*"],     
+            "@providers": ["providers"],     
+            "@models/*": ["models/*"],     
+            "@models": ["models"],     
+            "@components/*": ["components/*"],
+            "@components": ["components"],
+            "@directives/*": ["directives/*"],
+            "@directives": ["directives/*"],
+            "@settings/*": ["settings/*"],
+            "@settings": ["settings"]
+        },
+        "allowSyntheticDefaultImports": true,
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "experimentalDecorators": true,
+        "lib": [
+          "dom",
+          "es2017"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "target": "es6",
+        "outDir": "build"
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": ["./node_modules/*"] 
+   
+
+}
